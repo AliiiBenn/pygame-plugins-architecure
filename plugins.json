@@ -1,10 +1,17 @@
 {
-    "plugins": ["plugins.player"],
+    "plugins": ["plugins.player.player", "plugins.enemies.enemy"],
     "characters": [
         {
             "type": "player",
             "x": 150,
-            "y": 150
+            "y": 150,
+            "speed": 5
+        },
+        {
+            "type": "enemy",
+            "x": 300,
+            "y": 300,
+            "speed": 1
         }
     ]
 }
